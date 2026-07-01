@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/diff",
+  "title": "Diff",
+  "description": "Text diff MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/diff",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-diff",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/diff/mcp"
+    }
+  ]
+}
