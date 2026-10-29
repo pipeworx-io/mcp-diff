@@ -1,0 +1,27 @@
+[
+  {
+    "name": "diff_lines",
+    "description": "Compute a line-level diff between two texts (keyless, offline). Returns the change list (equal/add/remove), an added/removed/unchanged summary, and a unified-diff-style string with +/- prefixes.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "string",
+          "description": "The original (\"before\") text."
+        },
+        "b": {
+          "type": "string",
+          "description": "The new (\"after\") text."
+        },
+        "context": {
+          "type": "boolean",
+          "description": "If true, include unchanged lines in the unified output (default true)."
+        }
+      },
+      "required": [
+        "a",
+        "b"
+      ]
+    }
+  }
+]
