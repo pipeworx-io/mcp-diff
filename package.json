@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-diff",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Text diff MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "diff",
     "gatewaySlug": "diff",
-    "sourceHash": "v1-fb3499c4012ad4d436aeecb21b870a3fcd516a052da195694ae1de12439e5460",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-cf9b5ed4afd891442b7c7d7d0601880a89510fb3247d67378665501f5d20e2b5",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
